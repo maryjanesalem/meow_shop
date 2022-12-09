@@ -2,4 +2,50 @@ nav .navbar-brand img {
   width: 5em;
 }
 
+div.items {
+  margin: 0 5em;
+  display: flex;
+  padding: 5em;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 5em;
+}
+div.items .card {
+  width: 100%;
+  margin: auto 2em;
+}
+div.items .card .card-body {
+  width: 100%;
+}
+div.items img {
+  display: block;
+  width: 16em;
+  height: 16em;
+  object-fit: cover;
+  margin: auto;
+}
+
+footer .card .card-body .content {
+  margin: 2em auto;
+  display: flex;
+  justify-content: center;
+}
+footer .card .card-body .content .logo {
+  width: 20em;
+}
+footer .card .card-body .content .logo img {
+  width: 15em;
+}
+footer .card .card-body .content .links {
+  width: 10em;
+  align-self: center;
+}
+footer .card .card-body .content .links ul {
+  list-style-type: none;
+}
+footer .card .card-body .content a {
+  text-decoration: none;
+  color: white;
+}
+
 /*# sourceMappingURL=styles.css.map */
